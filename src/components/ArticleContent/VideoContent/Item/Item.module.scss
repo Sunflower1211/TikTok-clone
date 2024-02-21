@@ -1,0 +1,30 @@
+.ActionItemContainer {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.div-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(22, 24, 35, 0.06);
+}
+
+.icon {
+    font-size: 1.5em;
+}
+
+.icon-heart {
+    font-size: 1.5em;
+    color: var(--primary);
+}
+
+.number {
+    margin-top: 8px;
+    font-weight: 500;
+}

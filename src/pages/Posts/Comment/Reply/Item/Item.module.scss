@@ -1,0 +1,62 @@
+.item-reply-content-container {
+    display: flex;
+    padding: 6px 0px;
+    position: relative;
+}
+
+.avatar-reply {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.content-container-reply {
+    font-weight: 400;
+    flex: 1;
+}
+
+.nickname-reply {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.icon-ellipsis-reply {
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    top: -5px;
+}
+
+//tippy
+.tippy-edit-reply {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    list-style: none;
+    margin: 0px;
+    padding: 8px 16px;
+    white-space: nowrap;
+    height: 50px;
+    min-width: 115px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 16px;
+    border-radius: 8px;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+.delete-reply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    width: 100%;
+    &:hover {
+        color: var(--primary);
+    }
+}

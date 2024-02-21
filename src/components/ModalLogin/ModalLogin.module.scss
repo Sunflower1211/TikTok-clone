@@ -1,0 +1,30 @@
+.wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-family: TikTokDisplayFont;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 30px;
+    padding: 0px 32px;
+    width: 100%;
+    text-align: center;
+    color: rgb(22, 24, 35);
+}
+
+.body {
+    display: flex;
+    width: 336px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.button {
+    min-width: 155px;
+    min-height: 50px;
+    line-height: 22px;
+}

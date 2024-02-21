@@ -1,0 +1,134 @@
+.profile-wrapper {
+    padding-top: 24px;
+}
+
+.description-content {
+    background: rgba(22, 24, 35, 0.03);
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 16px;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar-and-name-profile-info {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.avatar-profile-info {
+    margin-right: 18px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.account-profile-info {
+    font-family: TikTokDisplayFont;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nickname-profile-info {
+    font-weight: 400;
+}
+
+.tippy-edit-posts {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    list-style: none;
+    margin: 0px;
+    padding: 8px 16px;
+    white-space: nowrap;
+    height: 50px;
+    min-width: 115px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 16px;
+    border-radius: 8px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+}
+
+.delete-posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    width: 100%;
+    &:hover {
+        color: var(--primary);
+    }
+}
+
+.edit-posts {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+.wrapper-content {
+    margin: 10px 0;
+}
+
+.browes-music {
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.name-song {
+    margin-left: 8px;
+}
+
+.main-content {
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 16px;
+    display: flex;
+}
+
+.div-wrapper-icon-main-content {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.div-icon-main-content {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: rgba(22, 24, 35, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-icon-heart {
+    cursor: pointer;
+}
+
+.icon-main-content {
+    font-size: 25px;
+}
+
+.icon-heart {
+    font-size: 25px;
+    color: var(--primary);
+}
+
+.span-icon-main-content {
+    font-weight: 400;
+}

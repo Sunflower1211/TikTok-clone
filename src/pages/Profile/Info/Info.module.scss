@@ -1,0 +1,115 @@
+.wrapper-info {
+    max-width: 624px;
+    padding-right: 92px;
+    padding-left: 0px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+}
+
+.user-avatar {
+    width: 116px;
+    height: 116px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user {
+    margin-left: 20px;
+    // font-size: 32px;
+    line-height: 38px;
+}
+.user-header {
+    display: flex;
+    align-items: center;
+}
+
+.check {
+    margin-left: 10px;
+    color: rgb(32, 213, 236);
+    font-size: 22px;
+}
+
+.username-id {
+    font-family: TikTokDisplayFont;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    word-break: break-word;
+    cursor: pointer;
+}
+
+.username {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    height: 25px;
+    overflow: hidden;
+    max-width: 450px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.wrapper-message-icon-unfollow {
+    display: flex;
+}
+
+.button-message {
+    min-width: 138px;
+    min-height: 36px;
+}
+
+.button-icon-user-check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 16px;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: var(--font-family);
+    cursor: pointer;
+    min-height: 39px;
+    background-color: var(--white);
+    border: 1px solid transparent;
+    user-select: none;
+    margin-left: 5px;
+
+    min-width: 58px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+    border-color: rgba(22, 24, 35, 0.12);
+    + .wrapper {
+        margin-left: 8px;
+    }
+
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+
+    &:hover {
+        border-color: rgba(22, 24, 35, 0.2);
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.button-follow {
+    margin-top: 8px;
+    min-width: 208px;
+    min-height: 36px;
+    padding: 6px 8px;
+}
+.span-edit-profile {
+    font-weight: 400;
+    margin-left: 5px;
+}

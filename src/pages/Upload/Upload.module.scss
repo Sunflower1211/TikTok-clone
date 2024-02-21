@@ -1,0 +1,150 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: var(--default-layout-width);
+    max-width: 100%;
+    padding: 0 var(--default-layout-horizontal-spacer);
+    display: flex;
+    height: 665px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+
+.custom-file-input {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: 560px;
+    border: 1px solid var(--primary);
+}
+
+input[type='file'] {
+    // /* Ẩn phần chọn file */
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.span-header {
+    margin: 15px 0;
+    font-family: TikTokDisplayFont;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.span-body {
+    margin: 15px 0;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    margin: 15px 0;
+    height: 40px;
+    width: 400px;
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 400;
+
+    &:hover {
+        border-color: var(--primary);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #fe2c55;
+    }
+}
+
+//có video
+
+.content-yes-video {
+    width: var(--default-layout-width);
+    max-width: 100%;
+    padding: 0 var(--default-layout-horizontal-spacer);
+    display: flex;
+    height: 665px;
+    flex-direction: column;
+    // background-color: black;
+}
+
+.header-content-upload-video {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0px;
+}
+
+.title-header {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.span-title-header {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(22, 24, 35, 0.5);
+}
+
+.body-content-upload-video {
+    flex: 1;
+    display: flex;
+}
+
+.input-content-video {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 4px 16px;
+    border-radius: 5px;
+    caret-color: var(--primary);
+}
+
+.footer-content-video {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.video-upload {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.video-ReactPlayer {
+    height: 440px;
+    width: 250px;
+}
+
+.volume-on-off {
+    background: none rgba(84, 84, 84, 0);
+    position: absolute;
+    bottom: 140px;
+    right: 205px;
+    padding: 8px;
+}
+
+.pause-play {
+    background: none rgba(84, 84, 84, 0);
+    position: absolute;
+    bottom: 140px;
+    padding: 8px;
+    left: 205px;
+}
+
+.icon {
+    font-size: 18px;
+    color: var(--white);
+}

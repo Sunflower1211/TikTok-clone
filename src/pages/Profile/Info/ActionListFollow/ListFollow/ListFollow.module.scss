@@ -1,0 +1,84 @@
+.wrapper-modal-list-user-follow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-list-user-follow {
+    padding: 24px;
+    line-height: 36px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.text-header-list-user-follow {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(22, 24, 35);
+    width: 100%;
+    text-align: center;
+}
+
+.button-close {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.tabs-list-user-follow {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 42px;
+    border-bottom: 0.5px solid rgba(22, 24, 35, 0.12);
+    margin-bottom: 1px;
+}
+
+.list-following {
+    flex: 1;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    height: 44px;
+    padding: 10px 24px;
+    cursor: pointer;
+    column-gap: 5px;
+    justify-content: center;
+    color: rgb(22, 24, 35);
+}
+
+.follow-display {
+    border-bottom: 2px solid rgb(22, 24, 35);
+}
+
+.list-follower {
+    flex: 1;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    height: 44px;
+    padding: 10px 24px;
+    cursor: pointer;
+    column-gap: 5px;
+    // border-bottom: 2px solid rgb(22, 24, 35);
+    color: rgb(22, 24, 35);
+    justify-content: center;
+}
+
+.list-user-follow-container {
+    flex: 1;
+    margin-top: 15px;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    overflow-y: auto;
+}

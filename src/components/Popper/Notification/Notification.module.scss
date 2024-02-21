@@ -1,0 +1,46 @@
+.notification-popper {
+    width: 376px;
+}
+
+.notification-header {
+    font-family: TikTokDisplayFont;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-left: 16px;
+    padding-top: 24px;
+}
+
+.notification-action {
+    padding-left: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 16px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.button-group-item {
+    color: rgb(255, 255, 255);
+    background: rgb(22, 24, 35);
+    border: none;
+    padding: 2px 8px;
+    margin-bottom: 12px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all 300ms ease 0s;
+    margin-right: 8px;
+    &.not {
+        background: rgba(22, 24, 35, 0.06);
+        color: rgb(22, 24, 35);
+        &:hover {
+            background: rgba(22, 24, 35, 0.2);
+        }
+    }
+}
+
+.notification-content-container {
+    overflow-y: auto;
+}

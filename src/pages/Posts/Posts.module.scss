@@ -1,0 +1,93 @@
+.wrapper {
+    display: flex;
+    overflow-y: hidden;
+    z-index: 10;
+}
+
+.video-container {
+    flex: 1;
+    background-color: black;
+    height: 680px;
+    position: relative;
+}
+
+.volume-on-off {
+    position: absolute;
+    bottom: 20px;
+    right: 75px;
+    color: var(--white);
+    border: none;
+    background: none rgba(84, 84, 84, 0.5);
+    outline: none;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease 0s;
+    cursor: pointer;
+    line-height: 0;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    &:hover {
+        background: none rgba(84, 84, 84, 0.25);
+    }
+}
+
+.button-xmark {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: var(--white);
+    background: none rgba(84, 84, 84, 0.5);
+    &:hover {
+        background: none rgba(84, 84, 84, 0.25);
+    }
+}
+
+.button-play {
+    position: absolute;
+    top: 42%;
+    left: 47%;
+    background: none rgba(84, 84, 84, 0);
+}
+
+.icon-play {
+    font-size: 70px;
+    color: var(--white);
+}
+
+.content-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 680px;
+}
+
+video {
+    cursor: pointer;
+}
+
+.volume {
+    position: absolute;
+    bottom: 110px;
+    right: 0px;
+    transform: translateX(-50%) rotate(270deg);
+    height: 5px;
+    width: 100px;
+    color: black;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 20px;
+    color: var(--white);
+}

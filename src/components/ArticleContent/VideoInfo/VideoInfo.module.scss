@@ -1,0 +1,58 @@
+.wrapper {
+    display: flex;
+}
+
+.user-avatar {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+.text {
+    flex: 1;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.username-id {
+    font-family: TikTokDisplayFont;
+    margin-right: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.username {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.wrapper-button-follow {
+    margin-right: 170px;
+}
+
+.follow {
+    margin-left: 18px;
+}
+
+.content {
+    margin-left: 18px;
+    max-width: 400px;
+}
+
+.music {
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 8px;
+}
+
+.name-song {
+    margin-left: 8px;
+}

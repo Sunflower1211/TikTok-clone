@@ -1,0 +1,39 @@
+.wrapper {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.list-video {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    // justify-content: space-between;
+    // justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+//error
+.wrapper-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 668px;
+    flex-direction: column;
+}
+
+.icon-error {
+    font-size: 100px;
+}
+
+.header-error {
+    font-family: TikTokDisplayFont;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.body-error {
+    font-weight: 400;
+}
